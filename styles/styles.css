@@ -87,7 +87,46 @@ footer{
 
 .more:hover{
     background-color:#268d99;
-    color: white;
+    color: rgb(216, 213, 213);
 }
 
 /* About page */
+
+#about{
+    background-color: rgb(235, 235, 235);
+}
+
+#about1{
+    margin-top: 20px;
+}
+
+.aboutFlex{
+    padding-top: 30px;
+    color: #fbe9e9;
+    background-image: linear-gradient(to right ,#333035 30%, #b159f4 70%);  
+}
+
+.about-image{
+    width: 550px;
+    height: 450px;
+}
+
+.rowColor{
+    padding: 10px;
+    background-color: white;
+}
+
+#img1{
+    width: 500px;
+    height: 300px;
+}
+
+#img2{
+    width: 500px;
+    height: 300px;
+}
+
+#img3{
+    width: 500px;
+    height: 300px;
+}
