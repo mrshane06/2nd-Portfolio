@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Home Page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right ,#535453 10%, #27c8da 90%);  
+}
+
+.welcome{
+    padding-bottom: 20px;
+}
+.const{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.return{
+    margin-left: 96%;
+    width: 40px;
+    background-color: #33b4c3;
+    box-shadow: #000000 1px 1px 1px 1px;
+    border-radius: 50px;
+}
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#image{
+    width: 500px;
+}
+
+.text{
+    padding: 15px;
+    margin: auto;
+    width: 750px;
+    border-radius: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 136, 255);
+}
+
+#doggo{
+    bottom: 15;
+    width: 370px;
+    height: 218px;
+}
+
+.Palace{
+    border: black solid 1px ;
+    color: rgb(0, 0, 0);
+    background-color: #acacac;
+    border-radius: 25%;
+    height: 50px;
+    padding: 5px;
+}
+
+.Palace:hover{
+    background-color: #33b4c3;
+    color: antiquewhite;
+    transition: 1s;
+}
+
+.more{
+    margin-top:10px;
+    width: 100px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 50px;
+    }
+    
+.more a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.more:hover{
+    background-color:#268d99;
+    color: white;
+}
+
+/* About page */
