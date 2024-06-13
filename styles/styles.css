@@ -296,3 +296,30 @@ footer{
     margin-top: 50px;
 }
 
+/* Contact Page */
+
+#contactMain{
+    background-image: linear-gradient(to right ,#8f8f8f 10%, #4d4d4d 90%);
+}
+
+.contactHead{
+    color: rgb(0, 0, 0);
+    font-size: 7vh;
+    padding: 20px;
+}
+
+.contactFooter{
+    bottom: 0;
+    position: fixed;
+}
+
+#bam{
+    margin-top: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#sub{
+    width: 60px;
+}
