@@ -13,6 +13,12 @@ body {
     background-image: linear-gradient(to right ,#535453 10%, #27c8da 90%);  
 }
 
+.dropdown-item{
+    width: 150px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
 .welcome{
     padding-bottom: 20px;
 }
@@ -130,3 +136,163 @@ footer{
     width: 500px;
     height: 300px;
 }
+
+/* Store Page */
+
+.store1{
+    padding: 20px;
+}
+
+.storeText{
+    background-color: rgb(235, 235, 235);
+}
+
+#storeImg{
+    margin-top: 50px;
+}
+
+#cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: #000000 2px 2px 2px;
+}
+
+#bird{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: #000000 2px 2px 2px;
+}
+
+#dog{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: #000000 2px 2px 2px;
+}
+
+#hampter{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: #000000 2px 2px 2px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+}
+
+/* Bird Page */
+.birdText{
+    padding: 20px;
+    text-align:left;
+    color: #000000
+}
+
+.bird{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.birdCage{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* Cat Page */
+
+#catMain{
+    background-image: linear-gradient(to right ,#333035 10%, #b159f4 90%);
+}
+
+.catText{
+    padding-top: 10px;
+    color: #000000;
+}
+
+.catFood{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.catAccess{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* Dog Page */
+
+#dogMain{
+    background-image: linear-gradient(to right ,#303532 10%, #b65d3b 90%);
+}
+
+.dogText{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.dogFood{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.dogAccess{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* hamster Page */
+
+#hamsterMain{
+    background-image: linear-gradient(to right ,#61796b 5%, #3bb650 95%);
+}
+
+.hamsterText{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.hamsterFood{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.hamsterAccess{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(400px, 1fr));
+    gap: 3em;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
