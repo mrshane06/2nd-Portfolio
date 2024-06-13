@@ -1,1 +1,1 @@
-let retrievedItems = localStorage.getItem()
+let x = localStorage.getItem('dogTreat')

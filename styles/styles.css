@@ -139,12 +139,17 @@ footer{
 
 /* Store Page */
 
+#store{
+    background-image: linear-gradient(to right ,#9a3dd7 30%, #3bbdd3 70%)
+}
+
 .store1{
     padding: 20px;
 }
 
 .storeText{
     background-color: rgb(235, 235, 235);
+    padding: 25px;
 }
 
 #storeImg{
@@ -154,9 +159,15 @@ footer{
 #cat{
     width: 200px;
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
-    box-shadow: #000000 2px 2px 2px;
+    transition: 1s;
+    cursor: pointer;
+    border:purple solid 4px;
+}
+
+#cat:hover{
+    transform: rotate(8deg);
 }
 
 #bird{
@@ -164,7 +175,13 @@ footer{
     height: 200px;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: #000000 2px 2px 2px;
+    border: blue solid 4px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#bird:hover{
+    transform: rotate(8deg);
 }
 
 #dog{
@@ -172,7 +189,13 @@ footer{
     height: 200px;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: #000000 2px 2px 2px;
+    border: orangered solid 4px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#dog:hover{
+    transform: rotate(8deg);
 }
 
 #hampter{
@@ -180,7 +203,13 @@ footer{
     height: 200px;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: #000000 2px 2px 2px;
+    border: rgb(0, 199, 0) solid 4px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#hampter:hover{
+    transform: rotate(8deg);
 }
 
 #footer{
@@ -201,6 +230,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 .birdCage{
@@ -209,6 +239,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 /* Cat Page */
@@ -228,6 +259,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 .catAccess{
@@ -236,6 +268,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 /* Dog Page */
@@ -257,6 +290,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 .dogAccess{
@@ -265,6 +299,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 /* hamster Page */
@@ -286,6 +321,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 .hamsterAccess{
@@ -294,6 +330,7 @@ footer{
     gap: 3em;
     margin-left: 50px;
     margin-top: 50px;
+    place-items: center;
 }
 
 /* Contact Page */
@@ -318,6 +355,7 @@ footer{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center;
+    padding: 50px;
 }
 
 #sub{

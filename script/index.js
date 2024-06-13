@@ -32,7 +32,7 @@ items.forEach(item =>{
                                     <h5 class="card-title">${item.name}</h5>
                                     <p class="card-text">${item.catergory}</p>
                                     <p class="card-text">${item.description}</p>
-                                    <a href="#" class="btn btn-primary">View More</a>
+                                    <a href="./html/store.html" class="btn btn-primary">To Store</a>
                                 </div>
                              </div>
                            `
