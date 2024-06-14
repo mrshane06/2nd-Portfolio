@@ -433,8 +433,40 @@ footer{
     position: fixed;
 }
 
+
+.myWhatsapp{
+    width: 15px;
+    height: 15px;
+}
+
+.house{
+    width: 15px;
+    height: 15px;
+}
+
+.mail{
+    width: 15px;
+    height: 15px;
+}
+
+.insta2{
+    width: 15px;
+    height: 15px;
+}
+
+.git2{
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 #bam{
-    margin-top: 50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
     justify-content: center;
@@ -443,6 +475,10 @@ footer{
 
 #sub{
     width: 60px;
+}
+
+.color{
+    color: white;
 }
 
 @media (max-width:340px){
@@ -479,5 +515,12 @@ table{
 }
 
 .cartFooter{
+    position: fixed;
+}
+
+
+/* Admin Page */
+
+#adminFooter{
     position: fixed;
 }
