@@ -96,6 +96,33 @@ footer{
     color: rgb(216, 213, 213);
 }
 
+@media (max-width:340px){
+    #image{
+        width: 350px;
+    }
+    .const{
+        display: grid;
+        gap: 4vh;
+        place-items: center;
+        margin-bottom: 25px;
+    }
+    .return{
+        margin-left: 1%;
+        width: 40px;
+        background-color: #33b4c3;
+        box-shadow: #000000 1px 1px 1px 1px;
+        border-radius: 50px;
+    }
+    .text{
+        width: 250px;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    #doggo{
+        padding-right: 25px;
+    }
+}
+
 /* About page */
 
 #about{
@@ -135,6 +162,27 @@ footer{
 #img3{
     width: 500px;
     height: 300px;
+}
+
+@media (max-width:340px){
+    .about-image{
+        width: 400px;
+    }
+    .aboutFlex{
+        padding: 0;
+    }
+    #img1{
+        width: 300px;
+        padding: 0;
+    }
+    #img2{
+        width: 300px;
+        padding: 0;
+    }
+    #img3{
+        width: 300px;
+        padding: 0;
+    }
 }
 
 /* Store Page */
@@ -242,6 +290,14 @@ footer{
     place-items: center;
 }
 
+@media(max-width:340px){
+    .birdFood{
+        margin: 0;
+        padding: 20px;
+        place-content: center;
+    }
+}
+
 /* Cat Page */
 
 #catMain{
@@ -269,6 +325,14 @@ footer{
     margin-left: 50px;
     margin-top: 50px;
     place-items: center;
+}
+
+@media(max-width:340px){
+    .catFood{
+        margin: 0;
+        padding: 20px;
+        place-content: center;
+    }
 }
 
 /* Dog Page */
@@ -302,6 +366,14 @@ footer{
     place-items: center;
 }
 
+@media(max-width:340px){
+    .dogFood{
+        margin: 0;
+        padding: 20px;
+        place-content: center;
+    }
+}
+
 /* hamster Page */
 
 #hamsterMain{
@@ -333,14 +405,25 @@ footer{
     place-items: center;
 }
 
+@media(max-width:340px){
+    .hamsterFood{
+        margin: 0;
+        padding: 20px;
+        place-content: center;
+    }
+}
+
 /* Contact Page */
 
 #contactMain{
-    background-image: linear-gradient(to right ,#8f8f8f 10%, #4d4d4d 90%);
+    /* background-image: linear-gradient(to right ,#8f8f8f 10%, #4d4d4d 90%); */
+    background-image: url(https://mrshane06.github.io/2nd-Portfolio-images/Pet%20Images/pexels-ellie-burgin-1661546-3362697.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .contactHead{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 7vh;
     padding: 20px;
 }
@@ -360,4 +443,41 @@ footer{
 
 #sub{
     width: 60px;
+}
+
+@media (max-width:340px){
+    #contactMain{
+        width: fit-content;
+        height: fit-content;
+    }
+    .contactHead{
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    #bam{
+        margin-top: 0;
+    }
+}
+
+/* Cart Page */
+
+
+
+#cart{
+    color: #000000;
+    background-color: rgb(234, 234, 234);
+}
+
+table,th,td{
+    border: #000000 3px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table{
+    margin: 80px;
+}
+
+.cartFooter{
+    position: fixed;
 }
