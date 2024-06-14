@@ -96,7 +96,7 @@ footer{
     color: rgb(216, 213, 213);
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     #image{
         width: 350px;
     }
@@ -164,7 +164,7 @@ footer{
     height: 300px;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     .about-image{
         width: 400px;
     }
@@ -290,7 +290,7 @@ footer{
     place-items: center;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     .birdFood{
         margin: 0;
         padding: 20px;
@@ -327,7 +327,7 @@ footer{
     place-items: center;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     .catFood{
         margin: 0;
         padding: 20px;
@@ -366,7 +366,7 @@ footer{
     place-items: center;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     .dogFood{
         margin: 0;
         padding: 20px;
@@ -405,7 +405,7 @@ footer{
     place-items: center;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     .hamsterFood{
         margin: 0;
         padding: 20px;
@@ -481,7 +481,7 @@ a {
     color: white;
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:400px){
     #contactMain{
         width: fit-content;
         height: fit-content;
